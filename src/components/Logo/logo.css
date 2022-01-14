@@ -1,0 +1,15 @@
+.logo-div {
+  display: grid;
+  justify-items: center;
+}
+
+.logo-name {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffcd01;
+  width: 3em;
+  height: 3em;
+  border-radius: 50%;
+  color: white;
+}
