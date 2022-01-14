@@ -12,3 +12,16 @@
   align-items: center;
   justify-content: center;
 }
+.Button {
+  border-radius: 20px;
+  background-color: #f44336;
+  width: 150px;
+  height: 30px;
+}
+
+#video-viewer{
+ display: flex;
+ justify-content: flex-end;
+ padding: 20 px;
+
+}
