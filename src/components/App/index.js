@@ -4,7 +4,9 @@ import { useState } from "react";
 import Logo from "../Logo";
 
 function App() {
-  const [randomNumber, setrandomNumber] = useState(0);
+  const [randomNumber, setrandomNumber] = useState(
+    Math.floor(Math.random() * 20 + 1)
+  );
 
   function getRandomNumber() {
     const number = Math.floor(Math.random() * 20 + 1);

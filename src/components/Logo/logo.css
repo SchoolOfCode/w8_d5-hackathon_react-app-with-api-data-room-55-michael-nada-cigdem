@@ -4,12 +4,12 @@
 }
 
 .logo-name {
-  display: grid;
+  display: flex;
   justify-content: center;
   align-items: center;
   background-color: #ffcd01;
-  width: 3em;
-  height: 3em;
+  width: 3.5em;
+  height: 3.5em;
   border-radius: 50%;
-  color: white;
+  color: black;
 }

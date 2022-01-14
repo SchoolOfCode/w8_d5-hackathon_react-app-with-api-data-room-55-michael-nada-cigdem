@@ -14,7 +14,8 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-image: url("https://www.ppt-backgrounds.net/thumbs/black-wood-cinema-hd-graphic-ppt-backgrounds.jpg");
+  background-size: cover;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
