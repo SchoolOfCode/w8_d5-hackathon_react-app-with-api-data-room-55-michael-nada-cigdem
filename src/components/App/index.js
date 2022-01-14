@@ -1,5 +1,5 @@
 import "./App.css";
-import {VideoViewer,VideoSearch} from "../VideoViewer";
+import {VideoViewer} from "../VideoViewer";
 import { useState } from "react";
 import Logo from "../Logo";
 import {SearchField} from "../SearchInput"
@@ -34,10 +34,10 @@ function App() {
           Random Generator
         </button></div> 
       </div>
-      <div><SearchField />
-      <VideoSearch randomNumber={randomNumber}></VideoSearch></div>
-    </div>
-  );
-}
+      </div>
+  )}
+     
+
+
 
 export default App;
