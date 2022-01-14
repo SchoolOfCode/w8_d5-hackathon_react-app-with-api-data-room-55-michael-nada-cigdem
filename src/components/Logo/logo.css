@@ -1,0 +1,22 @@
+.logo-div {
+  display: grid;
+  justify-items: center;
+}
+
+.logo-name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffcd01;
+  width: 3.5em;
+  height: 3.5em;
+  border-radius: 50%;
+  color: black;
+}
+
+.Button {
+  border-radius: 20px;
+  background-color: #f44336;
+  width: 150px;
+  height: 30px;
+}

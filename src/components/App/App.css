@@ -1,0 +1,27 @@
+.App {
+  background-image: url("https://www.ppt-backgrounds.net/thumbs/black-wood-cinema-hd-graphic-ppt-backgrounds.jpg");
+  text-align: center;
+  color: white;
+  font-size: calc(10px + 2vmin);
+}
+
+.App-header {
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.Button {
+  border-radius: 20px;
+  background-color: #f44336;
+  width: 150px;
+  height: 30px;
+}
+
+#video-viewer{
+ display: flex;
+ justify-content: flex-end;
+ padding: 20 px;
+
+}
