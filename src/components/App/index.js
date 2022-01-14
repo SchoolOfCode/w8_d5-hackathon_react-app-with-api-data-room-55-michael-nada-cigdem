@@ -18,12 +18,15 @@ function App() {
         <div>
           <Logo></Logo>
         </div>
+      </header>
+
+      <div>
         <button className="Button" onClick={getRandomNumber}>
           Random Generator
         </button>
         <VideoViewer randomNumber={randomNumber}></VideoViewer>
         <VideoViewer randomNumber="5"></VideoViewer>
-      </header>
+      </div>
     </div>
   );
 }
