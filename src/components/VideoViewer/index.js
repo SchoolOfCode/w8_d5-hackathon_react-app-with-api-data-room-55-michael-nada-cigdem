@@ -37,31 +37,31 @@ export function VideoViewer({randomNumber}) {
   );
 }
 
-// export function VideoSearch({randomNumber, input}) {
-//   const [video, setVideo] = useState("");
+export function VideoSearch({randomNumber, input}) {
+  const [video, setVideo] = useState("");
   
-//   console.log("VIDEO");
-//   console.log(video);
+  console.log("VIDEO");
+  console.log(video);
 
-//   async function fetchRandomVideos() {
-//     const response = await fetch(
-//       `https://v1.nocodeapi.com/bingbong1/vimeo/BYfvnfkIFBDxbljy/search?q=${input}&page=1&perPage=5`
-//     );
-//     const data = await response.json();
-//     console.log("THIS IS OUR DATA",data);
-//     setVideo(data);
-//   }
+  async function fetchRandomVideos() {
+    const response = await fetch(
+      `https://v1.nocodeapi.com/bingbong1/vimeo/BYfvnfkIFBDxbljy/search?q=${input}&page=1&perPage=5`
+    );
+    const data = await response.json();
+    console.log("THIS IS OUR DATA",data);
+    setVideo(data);
+  }
   
 
-//   return video ? (
-//     <div id="video-viewer">
-//       <p>
-//         This is the name of your video
-//         <b> {video.data[randomNumber].name}</b>
-//       </p>
-//       <ReactPlayer url={video.data[randomNumber].link} />
-//     </div>
-//   ) : (
-//     <></>
-//   );
-// }
+  return video ? (
+    <div id="video-viewer">
+      <p>
+        This is the name of your video
+        <b> {video.data[randomNumber].name}</b>
+      </p>
+      <ReactPlayer url={video.data[randomNumber].link} />
+    </div>
+  ) : (
+    <></>
+  );
+}

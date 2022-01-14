@@ -1,5 +1,5 @@
 import "./App.css";
-import {VideoViewer} from "../VideoViewer";
+import {VideoViewer ,VideoSearch} from "../VideoViewer";
 import { useState } from "react";
 import Logo from "../Logo";
 
@@ -14,7 +14,14 @@ function App() {
     const number = Math.floor(Math.random() * 20 + 1);
     setrandomNumber(number);
   }
+  const [randomNumber1, setrandomNumber1] = useState(
+    Math.floor(Math.random() * 20 + 1)
+  );
 
+  function getRandomNumber() {
+    const number1 = Math.floor(Math.random() * 20 + 1);
+    setrandomNumber(number1);
+  }
 
   return (
     <div className="App">
@@ -30,11 +37,13 @@ function App() {
           Random Generator
         </button></div> 
         <div ><VideoViewer randomNumber="5"></VideoViewer>
-        <button className="Button" onClick={getRandomNumber}>
+        <button className="Button" onClick={getRandomNumber1}>
           Random Generator
         </button></div> 
       </div>
+      <VideoSearch randomNumber = {randomNumber1} />
       </div>
+      
   )}
      
 
