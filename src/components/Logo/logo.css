@@ -13,3 +13,10 @@
   border-radius: 50%;
   color: black;
 }
+
+.Button {
+  border-radius: 20px;
+  background-color: #f44336;
+  width: 150px;
+  height: 30px;
+}

@@ -18,7 +18,9 @@ function App() {
         <div>
           <Logo></Logo>
         </div>
-        <button onClick={getRandomNumber}>Random Generator</button>
+        <button className="Button" onClick={getRandomNumber}>
+          Random Generator
+        </button>
         <VideoViewer randomNumber={randomNumber}></VideoViewer>
         <VideoViewer randomNumber="5"></VideoViewer>
       </header>
