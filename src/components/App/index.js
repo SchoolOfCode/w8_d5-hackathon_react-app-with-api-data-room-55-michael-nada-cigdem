@@ -2,7 +2,7 @@ import "./App.css";
 import {VideoViewer} from "../VideoViewer";
 import { useState } from "react";
 import Logo from "../Logo";
-import {SearchField} from "../SearchInput"
+
 
 function App() {
 
